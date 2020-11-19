@@ -12,6 +12,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title('CONVOLUCIÓN DE SEÑALES')
 st.text('Python Version')
 
+w = 4**544
+print(w, 'perrones' )
 
 
 opp= st.sidebar.selectbox('Dominio del tiempo',['Selection','Continuo','Discreto'])
